@@ -1,0 +1,21 @@
+﻿빌드 시작: 2014-12-04 오후 5:49:22
+     1>2 노드의 "C:\Users\cnlab\Desktop\CAU\3-2\영상처리\Term_Project\Team18_i.n_20124170_Src\Team18\Team18.vcxproj" 프로젝트(build 대상)입니다.
+     1>PrepareForBuild:
+         "C:\Users\cnlab\Desktop\CAU\3-2\영상처리\Term_Project\Team18_i.n_20124170_Src\Release\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\Team18.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Team18.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Team18.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BlobLabeling.cpp Team18.cpp Team18Dlg.cpp
+         BlobLabeling.cpp
+     1>c:\users\cnlab\desktop\cau\3-2\영상처리\term_project\team18_i.n_20124170_src\team18\BlobLabeling.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'cv.h': No such file or directory
+         Team18.cpp
+     1>c:\users\cnlab\desktop\cau\3-2\영상처리\term_project\team18_i.n_20124170_src\team18\BlobLabeling.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'cv.h': No such file or directory
+         Team18Dlg.cpp
+     1>c:\users\cnlab\desktop\cau\3-2\영상처리\term_project\team18_i.n_20124170_src\team18\BlobLabeling.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'cv.h': No such file or directory
+     1>"C:\Users\cnlab\Desktop\CAU\3-2\영상처리\Term_Project\Team18_i.n_20124170_Src\Team18\Team18.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:05.38

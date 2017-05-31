@@ -1,0 +1,215 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\Team18.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""      // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Team18.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Team18 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Team18, 버전 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_Team18_DIALOG DIALOGEX 0, 0, 426, 301
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Team18"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_DISPLAY,"Static",SS_BLACKFRAME,11,17,296,160
+    GROUPBOX        "Origin Image",IDC_STATIC,7,7,304,173
+    GROUPBOX        "파일 불러오기",IDC_STATIC,313,7,106,46
+    PUSHBUTTON      "이미지파일 열기",IDC_BUTTON_LOAD,317,16,99,14
+    GROUPBOX        "Processed Image",IDC_STATIC,9,181,301,104
+    CONTROL         "",IDC_STATIC_NUMBER,"Static",SS_BLACKFRAME,12,193,145,92
+    CONTROL         "",IDC_STATIC_RESULT,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,159,193,147,92,WS_EX_STATICEDGE
+    PUSHBUTTON      "추출",IDC_BT_START,316,57,103,14
+    CONTROL         "",IDC_Team18,"Static",SS_BITMAP,325,203,13,12
+    EDITTEXT        IDC_EDIT_FILENAME,319,32,95,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Team18.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "Team18.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_Team18_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 419
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDC_Team18              BITMAP                  "res\\Team18_IN.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "Team18 정보(&A)..."
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\Team18.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"      // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
